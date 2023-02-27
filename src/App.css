@@ -13,12 +13,64 @@
   }
 }
 
+
+.Banar {
+  text-align: center;
+}
+
+.Banar-slide {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
 .App-header {
+	
+	
+  
   background-color: #282c34;
-  min-height: 100vh;
+  //min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+
+       .main {
+			padding: 20px;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+		}
+
+		.section {
+			flex-basis: 30%;
+			background-color: #fff;
+			padding: 10px;
+			margin-bottom: 20px;
+		}
+
+		.footer {
+			background-color: #333;
+			color: #fff;
+			padding: 20px;
+			text-align: center;
+		}
+
+
+.App-body {
+	
+	
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #333300;
+  //min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
