@@ -42,9 +42,9 @@ function App() {
      </main> 
 	 <footer className="footer">
 	     Contact Us
- vivecosmetic@gmail.com
- +91 8699748774
- Plot No. 773, Sector 82, JLPL, Ind. Area, Mohali, Punjab
+ salimsk@gmail.com
+ +91 6296256539
+ Plot No. 773,Panchgram,murshidabad west bengal
 	 </footer>
      
     </div>
