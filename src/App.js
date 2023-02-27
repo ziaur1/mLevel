@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import banar from './banar.jpeg';
 import './App.css';
 
