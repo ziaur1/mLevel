@@ -1,11 +1,17 @@
 import banar from './banar.jpeg';
+import level from './level.png';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">       
-		<img src={banar} className="Banar-slide" alt="banar" />	
+      <header className="App-header">  
+        <section className="section">
+         <p>		
+		<img src={banar} className="Banar-slide" alt="banar" />
+        </p>		
+		</section>
+       
 	</header>
 	<main className="main">
 	   <section className="section">			
@@ -37,6 +43,21 @@ function App() {
 		<p>
           Thank you for considering our company as your partner in network marketing. We believe in the power of MLM and are committed to helping our team members achieve their goals and dreams. Please contact us today to learn more about our opportunities and how we can help you succeed.
         </p>
+		</section>
+		<section className="section">
+	     <p>	
+		<img src={level} className="Banar-slide" alt="level" />	
+		</p>
+		</section>
+		<section className="section">
+	     <p>	
+		<img src={level} className="Banar-slide" alt="level" />	
+		</p>
+		</section>
+		<section className="section">
+	     <p>	
+		<img src={level} className="Banar-slide" alt="level" />	
+		</p>
 		</section>
 		  
      </main> 
